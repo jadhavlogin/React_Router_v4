@@ -23,7 +23,7 @@ This project is for understand the How to use Router in react application.
       <Route path="/:id" render = {()=> (<p> I want this text to show up for all routes other than '/', '/products' and '/category' </p>)}/>
       ```
  <br>
-        If the URL is /products, all the routes that match the location /products are rendered. So, the <Route> with path :id gets <br> rendered along with the Products component. This is by design. However, if this is not the behavior you’re expecting, you should add the<br> <Switch> component to your routes. With <Switch>, only the first child <Route> that matches the location gets rendered.
+        If the URL is /products, all the routes that match the location /products are rendered. So, the Route with path :id gets <br> rendered along with the Products component. This is by design. However, if this is not the behavior you’re expecting, you should add the<br> Switch component to your routes. With Switch, only the first child Route that matches the location gets rendered.
   
 ## Folder Structure
 After creation, your project should look like this:
