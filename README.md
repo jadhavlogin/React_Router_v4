@@ -12,7 +12,7 @@ This project is for understand the How to use Router in react application.
 
 ## React Router v4
    This will demostrate the use of Route, BrowserRouter, Switch, Link in React application. By using this we can make routing in react web application
-   ## <switch> component - 
+   ## switch component - 
       When multiple <Route>s are used together, all the routes that match are rendered inclusively. Consider below example-
       ```
       <Route exact path="/" component={Home}/>
@@ -20,7 +20,8 @@ This project is for understand the How to use Router in react application.
       <Route path="/category" component={Category}/>
       <Route path="/:id" render = {()=> (<p> I want this text to show up for all routes other than '/', '/products' and '/category' </p>)}/>
       ```
-        If the URL is /products, all the routes that match the location /products are rendered. So, the <Route> with path :id gets rendered along with the Products component. This is by design. However, if this is not the behavior you’re expecting, you should add the <Switch> component to your routes. With <Switch>, only the first child <Route> that matches the location gets rendered.
+      <br>
+        If the URL is /products, all the routes that match the location /products are rendered. So, the <Route> with path :id gets <br> rendered along with the Products component. This is by design. However, if this is not the behavior you’re expecting, you should add the<br> <Switch> component to your routes. With <Switch>, only the first child <Route> that matches the location gets rendered.
 
 ## Folder Structure
 
